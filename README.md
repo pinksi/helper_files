@@ -24,17 +24,18 @@ This repository includes all the scripts created to extract data from different 
     2. csv file with node values for extra principal strain values
     ```
     NODE |	ANGLE_PRINCIPAL_STRAIN
-```
+    ```
 
 2. `material_vals.py`: Extracting material_name and it's final_value from "Material" section of cdb file
 
      Input: `cdb file`
 
      Output: `csv file with material_name and it's value`
+     
      `Material_name | Final_value`
 
 3. `txt_to_csv.py`: Converting text file into csv files.
 
      Input: `txt file`
 
-     Output: ``csv file`
+     Output: `csv file`
