@@ -29,10 +29,10 @@ def main():
         )
         required_df = material_df[["Material_name", "Final_value"]]
         required_df["Final_value"] = required_df["Final_value"].astype(float)
-        if not os.path.exists(f"{dir_path}/new_output"):
-            os.makedirs(f"{dir_path}/new_output")
+        if not os.path.exists(f"{dir_path}/output"):
+            os.makedirs(f"{dir_path}/output")
         logger.info(f"Exporting the required values...")
-        required_df.to_csv(f"{os.getcwd()}/new_output/{filename}_material_values.csv")
+        required_df.to_csv(f"{os.getcwd()}/output/{filename}_material_values.csv")
     logger.success("DONE")
 
 
