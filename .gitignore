@@ -1,0 +1,8 @@
+.directory
+.ipynb_checkpoints/
+output/
+*.csv
+*.zip
+new_output/
+E/
+dfdf/
